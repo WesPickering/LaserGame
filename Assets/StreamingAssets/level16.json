@@ -1,0 +1,10 @@
+{
+    "sources": [ 38010 ],
+    "targets": [ 6013, 18010, 30012, 65011 ],
+    "obstacles": [ 27, 32 ],
+    "width": 7,
+    "height": 10,
+    "manipulator_index": [ 0, 1 ],
+    "manipulator_max": [ 2, 3 ],
+    "level_num": 16
+}

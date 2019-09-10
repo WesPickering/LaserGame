@@ -1,0 +1,11 @@
+{
+    "sources": [ 5013, 39030 ],
+    "targets": [ 2012, 60132, 65010 ],
+    "obstacles": [ 18, 20, 32, 66 ],
+	"checkers": [ 233, 353, 575 ],
+    "width": 7,
+    "height": 10,
+    "manipulator_index": [ 0, 1 ],
+    "manipulator_max": [ 13, 2 ],
+    "level_num": 29
+}

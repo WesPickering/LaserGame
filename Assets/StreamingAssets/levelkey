@@ -1,0 +1,36 @@
+
+/* Board Creation Guide
+    * TILES:
+    * 1 - Basic Empty Tile
+    * 2 - Obstacle Tile
+    * 3 - Source - Red
+    * 4 - Source - Green
+    * 5 - Source - Blue
+    * 6 - Target - Red
+    * 7 - Target - Green
+    * 8 - Target - Blue
+    * 9 - Laser Target 2 Port, 90 angle
+    * 10 - Laser Target 2 Port, 180 angle
+    * 11 - Laser Target 3 Port
+    * 12 - Laser Target 4 Port
+    *
+    * Direction:
+    * 1 - North
+    * 2 - West
+    * 3 - South
+    * 4 - East
+    *
+    * Location:
+    * (x,y) - > 10*x + y
+    *
+    * A Single tile is represented by an Integer which specifies Type and Rotation and location.
+    * The Ones digit specifies the Direction that the tile is facing.
+    * the tens digit specifies the type of tile
+    * the 100s digit specifies y component
+    * the 1000s digit specifies x component
+    * tile = Value % 10
+    * type = (Value / 10) % 100
+    * y = (value / 100) % 10
+    * x = (value /1000) % 10
+    * Ex. 33 -> 3: Laser Source + 3: South
+    * this would instantiate a Laser Source facing South

@@ -1,0 +1,10 @@
+{
+    "sources": [ 36030, 64021 ],
+    "targets": [ 6130, 40122 ],
+    "checkers": [ 122, 253, 343, 456, 472 ],
+    "width": 7,
+    "height": 10,
+    "manipulator_index": [ 0, 1 ],
+    "manipulator_max": [ 8, 2 ],
+    "level_num": 28
+}

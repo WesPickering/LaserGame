@@ -1,0 +1,9 @@
+{
+    "sources": [ 8023, 29020, 59010, 69030 ],
+    "checkers": [ 272, 313, 321, 341, 355, 361, 382, 551 ],
+    "width": 7,
+    "height": 10,
+    "manipulator_index": [ 1 ],
+    "manipulator_max": [ 7 ],
+    "level_num": 35
+}

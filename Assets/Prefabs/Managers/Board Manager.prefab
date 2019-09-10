@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4365919195697861162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4365919195697861164}
+  - component: {fileID: 4365919195697861165}
+  m_Layer: 0
+  m_Name: Board Manager
+  m_TagString: BoardManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4365919195697861164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4365919195697861162}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -377.7184, y: -1352.0325, z: -17.06642}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4365919195697861165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4365919195697861162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37efa56df34bf42f2b2fa3d5623c6b35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  test: 1
+  testlevel: 16
+  tile_types:
+  - {fileID: 5254579108446773569, guid: 1622dcba10e1b41b18c13d01dd0208d0, type: 3}
+  - {fileID: 4793511692877442361, guid: 24da19bfcece347a2b4d4f563d30950b, type: 3}
+  - {fileID: 5935085190222552984, guid: 2866d522ff1cf47c6a27d933636cf39d, type: 3}
+  - {fileID: 7049244350661853260, guid: b4e6c65439a82460db91fbbf691696ac, type: 3}
+  - {fileID: 4057536925651429816, guid: ec96ca5941f444ff6b84b57754962293, type: 3}
+  - {fileID: 8746470153246676475, guid: 5c998cb1e8e6d4f6a937bf3ee99a891a, type: 3}
+  - {fileID: 3617465654691522112, guid: befe5570875ee4411b16fa6ab84e8550, type: 3}
+  - {fileID: 4766900395195574857, guid: dcd7d263282b24e6d86c9d4e3646ccd3, type: 3}
+  - {fileID: 1373586420811492381, guid: 28664be5f0cf94795b8e9a10f932fc48, type: 3}
+  - {fileID: 5940559429378644510, guid: 535e5bd76e6414b6d825ffacd3805206, type: 3}
+  - {fileID: 8746470153246676475, guid: 13ff3ece6aaf0439a85bd08b88ef257c, type: 3}
+  - {fileID: 8053910281192752729, guid: 947a226b48bd64498ab12b455e8d471e, type: 3}
+  - {fileID: 3347018021325408576, guid: 1e584d81c6e774fd4a421599a49fb4db, type: 3}
+  - {fileID: 3539951636667225312, guid: 61c3b7a61907140e7bf363a3e7eba33b, type: 3}
+  - {fileID: 1450050456166871894, guid: 99161ebbb98d14ffbbc6db6643aad421, type: 3}
+  - {fileID: 8746470153246676475, guid: 2a2e78160ad514e64a91c93c28f320cc, type: 3}
+  - {fileID: 2779327638659984234, guid: cb17be21c907545b3bdeac53cbe7ce57, type: 3}
+  - {fileID: 2456866850896149948, guid: 98bccdf9d980047ff986417aabc36cfd, type: 3}
+  - {fileID: 483836371732442030, guid: abc3812e2151a4e00ae74d0d7a78932f, type: 3}
+  - {fileID: 5742616503143677326, guid: 7e32c303e8f404c50a76cb92260b8157, type: 3}
+  - {fileID: 4421842090442669381, guid: 1055f068f001348c185f50aa4075869d, type: 3}
+  - {fileID: 8714045317596644430, guid: f434006b024ed483387de018616a60d4, type: 3}
+  - {fileID: 3794209703983348998, guid: 1d50e3e6b3c1e42c483b50083b67763e, type: 3}
+  - {fileID: 7597751957072550620, guid: b0ac676e6988c4c7881ba8e22a4c7267, type: 3}
+  - {fileID: 9186889384184464219, guid: 03bde32aac83d41378d73b834429abaf, type: 3}
+  - {fileID: 504010154274822279, guid: 1f1caf28aa71b4e86ace89e29739f256, type: 3}
+  start_location: {x: -0.7, y: 1.0125}
+  x_offset: 0.2
+  y_offset: 0.2
+  UI_Item: {fileID: 472126949358766329, guid: e7865af80febb4b94a81d37b40c419c4, type: 3}
+  Bottom_Panel: {fileID: 0}
+  Level_Text: {fileID: 0}
+  Manipulators:
+  - {fileID: 4757758396999009323, guid: 80981abc5dbcd4f79aeb5e5e4cc1c24c, type: 3}
+  - {fileID: 2093185330082768869, guid: 033f5138c025347aa9c190ff145c5449, type: 3}
+  - {fileID: 532511701210989894, guid: 6e68ec036d7e34cfd8d7261abbf71400, type: 3}
+  gameover: 0
+  Win_UI: {fileID: 0}
+  Blocking_Layer: {fileID: 0}

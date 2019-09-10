@@ -1,0 +1,9 @@
+{
+    "sources": [ 39010 ],
+    "targets": [ 5013, 30012, 65011 ],
+    "width": 7,
+    "height": 10,
+    "manipulator_index": [ 0, 1 ],
+    "manipulator_max": [ 1, 2 ],
+    "level_num": 18
+}
